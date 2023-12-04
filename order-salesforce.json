@@ -1,0 +1,43 @@
+{
+    "id": "30001",
+    "href": "https://host:port/productOrderingManagement/v4/productOrder/30001",
+    "description": "Product Order illustration sample",
+    "externalId": "PO-456",
+    "orderDate": "2019-04-30T08:13:59.506Z",
+    "requestedCompletionDate": "2019-05-02T08:13:59.506Z",
+    "requestedStartDate": "2019-05-03T08:13:59.506Z",
+    "channel": "Call Center",
+    "note": "id:1;date:2019-04-30T08:13:59.509Z;text:This is a TMF product order illustration",
+    "productOrderItem": [
+        {
+            "id": "100",
+            "quantity": 1,
+            "action": "add"
+        },
+        {
+            "id": "110",
+            "quantity": 1,
+            "action": "add"
+        }
+    ],
+    "relatedParty": [
+        {
+            "id": "456-dd-df45",
+            "href": "https://host:port/partyManagement/v4/individual/456-dd-df45",
+            "name": "Joe Doe",
+            "role": "Seller",
+            "@type": "RelatedParty",
+            "@referredType": "Individual"
+        },
+        {
+            "id": "ff55-hjy4",
+            "href": "https://host:port/partyRoleManagement/v4/customer/ff55-hjy4",
+            "name": "Jean Pontus",
+            "@type": "RelatedParty",
+            "role": "Consumer",
+            "@referredType": "Customer"
+        }
+    ],
+    "state": "completed",
+    "@type": "ProductOrder"
+}
