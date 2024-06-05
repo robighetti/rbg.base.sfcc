@@ -1,4 +1,9 @@
 {
   "root": true,
-  "extends": "airbnb-base/legacy"
+  "extends": "airbnb-base/legacy",
+  "rules": {
+    "global-require": "off",
+    "func-names": "off",
+    "vars-on-top": "off"
+  }
 }
